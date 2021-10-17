@@ -1,6 +1,6 @@
 Preview : https://youtu.be/N8ZKMzA8-wo
 
-Discord Aide et Scripts : https://discord.gg/5YQW2gjNc7
+Mon Discord Aide et Scripts : https://discord.gg/5YQW2gjNc7
 
 - Core Gang 
 - Vestiaire
