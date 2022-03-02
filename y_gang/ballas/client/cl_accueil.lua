@@ -16,6 +16,10 @@ AddEventHandler('esx:setJob', function(job)
 	ESX.PlayerData.job = job
 end)
 
+RegisterNetEvent('esx:setJob2')
+AddEventHandler('esx:setJob2', function(job2)
+    ESX.PlayerData.job2 = job2
+end)
 
 --- MENU ---
 
