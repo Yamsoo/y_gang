@@ -96,7 +96,6 @@ Citizen.CreateThread(function()
       local wait = 500
 
         for k in pairs(posacballas) do
-          if ESX.PlayerData.job and ESX.PlayerData.job.name == 'ballas' or ESX.PlayerData.job2 and ESX.PlayerData.job2.name == 'ballas' then 
             local plyCoords = GetEntityCoords(GetPlayerPed(-1), false)
             local dist = Vdist(plyCoords.x, plyCoords.y, plyCoords.z, posacballas[k].x, posacballas[k].y, posacballas[k].z) 
 
@@ -108,7 +107,6 @@ Citizen.CreateThread(function()
                     accballas()
             end
         end
-    end
     Citizen.Wait(wait)
     end
 end
